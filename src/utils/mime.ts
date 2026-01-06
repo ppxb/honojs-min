@@ -65,7 +65,7 @@ export function getMimeType(filename: string, mimes: Record<string, string> = ba
   if (!match) {
     return
   }
-  let mimeType = mimes[match[1]!]
+  let mimeType = mimes[match[1]]
   if (mimeType && mimeType.startsWith('text')) {
     mimeType += '; charset=utf-8'
   }
