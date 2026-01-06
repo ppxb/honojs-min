@@ -1,0 +1,13 @@
+{
+  "name": "honojs-min",
+  "type": "module",
+  "private": true,
+  "module": "index.ts",
+  "devDependencies": {
+    "@antfu/eslint-config": "^6.7.3",
+    "@types/bun": "latest",
+    "@types/node": "^25.0.3",
+    "eslint": "^9.39.2",
+    "typescript": "^5.9.3"
+  }
+}
