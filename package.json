@@ -1,8 +1,11 @@
 {
   "name": "honojs-min",
   "type": "module",
-  "private": true,
   "module": "index.ts",
+  "scripts": {
+    "test": "tsc --noEmit && vitest --run",
+    "test:watch": "vitest --watch"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^6.7.3",
     "@types/bun": "latest",
